@@ -27,8 +27,8 @@ for(i in rule){
 		 	names(tmp_insert)=name
 		 	df=rbind(df,tmp_insert)	
 		}
-	break}
-}
+	}
+break}
 
 #df=df[order(df$region,df$sub_region,df$rule,df$mth),]
 
